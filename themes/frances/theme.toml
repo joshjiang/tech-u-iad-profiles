@@ -1,0 +1,12 @@
+name = "Frances"
+license = "MIT"
+licenselink = "https://github.com/mcrwfrd/hugo-frances-theme/blob/master/LICENSE"
+description = "A custom grid theme for artists, including a blog and single pages for bio and contact"
+homepage = "https://github.com/mcrwfrd/hugo-frances-theme"
+tags = ["grid", "portfolio"]
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Michael Crawford"
+  homepage = "https://crawford.io"

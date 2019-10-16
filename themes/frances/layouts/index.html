@@ -1,0 +1,18 @@
+{{ define "main" }}
+	<ul id="og-grid" class="og-grid">
+		{{ range $.Site.Data.artworks.artworks }}
+			<li>
+				<a 
+					href="" 
+					data-largesrc="{{ .image }}" 
+					data-title="{{ .title }}" 
+					data-mediums="{{ .mediums }}"
+					data-dimensions="{{ .dimensions }}"
+					data-description="{{ .description }}">
+					<img class="d-none d-sm-block" src="{{ .thumb }}" alt="{{ .alt }}">
+					<img class="d-block d-sm-none" src="{{ .image }}" alt="{{ .alt }}">
+				</a>
+			</li>
+		{{ end }}
+	</ul>
+{{ end }}
