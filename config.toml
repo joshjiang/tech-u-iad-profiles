@@ -1,6 +1,6 @@
 baseurl = "http://example.org/"
 languageCode = "en-us"
-title = "Hugo Cards"
+title = "Tech U Cohort 5"
 theme = "hugo-cards"
 #themesDir = "../.."
 paginate = 6
