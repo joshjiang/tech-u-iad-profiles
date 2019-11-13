@@ -6,8 +6,8 @@ location: New York
 role: Professional Services Consultant
 github: https://github.com/joshjiang
 linkedin: https://www.linkedin.com/in/josh-jiang-02722776/
-img: joshujia.jpeg
-img-thumbnail: joshuajia.jpeg
+img: 1920x475.png
+img_thumbnail: thumb.png
 ---
 ### About Joshua
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque orci in interdum ultrices. Nam pulvinar varius nisi, vehicula mattis eros. Donec elit eros, interdum et dui eget, euismod fringilla elit. Suspendisse vitae convallis erat, a suscipit velit. Proin bibendum tempus pretium. Aliquam lectus tortor, vehicula sed rhoncus eu, placerat nec purus. Morbi venenatis nibh luctus turpis gravida, eget laoreet ex feugiat. Morbi a nisi eu nibh euismod sollicitudin.
