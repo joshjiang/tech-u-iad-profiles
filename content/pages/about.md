@@ -3,17 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+Tech U is currently an internal-only technical workforce education program that brings new L4 talent into AWS and teaches them the soft and hard skills needed to be field-ready and to successfully work with AWS customers as Solutions Architects(SAs), Professional Services (PS) Consultants, and Technical Trainers (TTs). Tech U, which launched in 2017, is now a dedicated program within Training and Certification (T&C) and has expanded to six global cohorts, with a charge to find and develop diverse and inclusive cloud talent globally.
 
-
-
-
-Hugo cards is a Bootstrap based theme ported from the Jekyll theme [Webjeda-cards](https://webjeda.com/cards/). Any Bootstrap element can be used in the theme.
-
-For more themes, visit [Hugo Themes](https://themes.gohugo.io/)
-
-**Does the theme deserve a star?**
-
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/bul-ikana/hugo-cards" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star bul-ikana/hugo-cards on GitHub">Star</a>
-<!-- Place this tag in your head or just before your close body tag. -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+<a href="https://www.amazon.jobs/en/search?business_category[]=student-programs&base_query=tech%20u"><button type="button" class="btn btn-primary">Apply</button>
+</a>
