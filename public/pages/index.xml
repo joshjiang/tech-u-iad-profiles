@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Tech U Cohort 5</title>
+    <link>https://master.dnfrtzpe47ih5.amplifyapp.com/pages/</link>
+    <description>Recent content in Pages on Tech U Cohort 5</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://master.dnfrtzpe47ih5.amplifyapp.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://master.dnfrtzpe47ih5.amplifyapp.com/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://master.dnfrtzpe47ih5.amplifyapp.com/pages/about/</guid>
+      <description>Tech U is currently an internal-only technical workforce education program that brings new L4 talent into AWS and teaches them the soft and hard skills needed to be field-ready and to successfully work with AWS customers as Solutions Architects(SAs), Professional Services (PS) Consultants, and Technical Trainers (TTs). Tech U, which launched in 2017, is now a dedicated program within Training and Certification (T&amp;amp;C) and has expanded to six global cohorts, with a charge to find and develop diverse and inclusive cloud talent globally.</description>
+    </item>
+    
+  </channel>
+</rss>

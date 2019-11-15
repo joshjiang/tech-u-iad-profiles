@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tech U Cohort 5</title>
+    <link>https://master.dnfrtzpe47ih5.amplifyapp.com/posts/</link>
+    <description>Recent content in Posts on Tech U Cohort 5</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://master.dnfrtzpe47ih5.amplifyapp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Joshua Jiang</title>
+      <link>https://master.dnfrtzpe47ih5.amplifyapp.com/posts/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://master.dnfrtzpe47ih5.amplifyapp.com/posts/documentation/</guid>
+      <description>About Joshua Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque orci in interdum ultrices. Nam pulvinar varius nisi, vehicula mattis eros. Donec elit eros, interdum et dui eget, euismod fringilla elit. Suspendisse vitae convallis erat, a suscipit velit. Proin bibendum tempus pretium. Aliquam lectus tortor, vehicula sed rhoncus eu, placerat nec purus. Morbi venenatis nibh luctus turpis gravida, eget laoreet ex feugiat. Morbi a nisi eu nibh euismod sollicitudin.</description>
+    </item>
+    
+    <item>
+      <title>Simon Woldenmicheal</title>
+      <link>https://master.dnfrtzpe47ih5.amplifyapp.com/posts/joshujia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://master.dnfrtzpe47ih5.amplifyapp.com/posts/joshujia/</guid>
+      <description>About Joshua Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque orci in interdum ultrices. Nam pulvinar varius nisi, vehicula mattis eros. Donec elit eros, interdum et dui eget, euismod fringilla elit. Suspendisse vitae convallis erat, a suscipit velit. Proin bibendum tempus pretium. Aliquam lectus tortor, vehicula sed rhoncus eu, placerat nec purus. Morbi venenatis nibh luctus turpis gravida, eget laoreet ex feugiat. Morbi a nisi eu nibh euismod sollicitudin.</description>
+    </item>
+    
+  </channel>
+</rss>
