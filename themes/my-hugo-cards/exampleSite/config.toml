@@ -1,7 +1,7 @@
 baseurl = "http://example.org/"
 languageCode = "en-us"
 title = "Hugo Cards"
-theme = "hugo-cards"
+theme = "my-hugo-cards"
 themesDir = "../.."
 paginate = 6
 

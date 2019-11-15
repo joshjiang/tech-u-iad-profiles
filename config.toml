@@ -1,7 +1,7 @@
 baseurl = "https://master.dnfrtzpe47ih5.amplifyapp.com"
 languageCode = "en-us"
 title = "Tech U Cohort 5"
-theme = "hugo-cards"
+theme = "my-hugo-cards"
 #themesDir = "../.."
 paginate = 6
 
