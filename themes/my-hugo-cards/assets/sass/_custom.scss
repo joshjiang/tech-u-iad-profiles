@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "bluu";
+  src: url("../fonts/bluunext-bold-webfont.woff2") format("woff2"),
+    url("../fonts/bluunext-bold-webfont.woff") format("woff"), url("../fonts/bluunext-bold.ttf") format("truetype"),
+    url("../fonts/bluunext-bold-webfont.svg#bluu_nextbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bluu";
+  src: url("../fonts/bluunext-bolditalic-webfont.woff2") format("woff2"),
+    url("../fonts/bluunext-bolditalic-webfont.woff") format("woff"),
+    url("../fonts/bluunext-bolditalic.ttf") format("truetype"),
+    url("../fonts/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "bluu", sans-serif;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.post-title {
+  margin-bottom: 0px;
+}
+.post-content img {
+  max-height: 100px;
+}
+.post-content {
+    @media only screen and (min-width: 1500px) {
+        padding-top:30px
+    }
+}
+.circular-portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+.circular-portrait img {
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+}
+.post-img img {
+  min-height: 275px;
+  min-width: 100vw;
+  background-size: cover;
+}
+
+.divider {
+  display: block;
+  height: 1px;
+  width: 55px;
+  overflow: hidden;
+  background-color: #e6e6e6;
+  margin: 16px auto;
+}
+
+.panel-title {
+  text-align: center;
+}
+
+.image-wrapper {
+  min-height: 475px;
+  min-width: 100vw;
+  background-size: cover;
+  @media only screen and (max-width: 720px) {
+    background-position: 30% top;
+  }
+}
+
+.post-header {
+  @media only screen and (min-width: 1500px) {
+    position: absolute;
+    top: -44%;
+    right: -24%;
+    width: 45%;
+    text-shadow: 1px 1px 2px #fff;  }
+}
+.navbar-brand img {
+  max-width: 100px;
+  display: inline;
+}
+
+.profile-wrapper {
+  right: 14%;
+  width: 28%;
+}

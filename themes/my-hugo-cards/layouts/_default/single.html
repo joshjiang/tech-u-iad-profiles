@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<div class="wrapper">
+    <div class="image-wrapper" style="background-image:url('{{ .Site.BaseURL}}images/{{ .Params.img }}');">
+
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+          <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
+            <p class="role-location">{{.Params.role}}, {{ .Params.location }}</p>
+            <p>
+              {{if .Params.alias}}
+              <a href="mailto:{{.Params.alias}}@amazon.com">
+                <span class="fa-stack" style="vertical-align: top; color:#f89729;">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              {{end}}
+              {{if .Params.linkedin}}
+              <a href="{{.Params.linkedin}}">
+                <span class="fa-stack" style="vertical-align: top; color:#f89729;">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              {{end}}
+              {{if .Params.github}}
+              <a href="{{.Params.github}}">
+                <span class="fa-stack" style="vertical-align: top; color:#f89729;">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+              {{end}}
+            </p>
+          </header>
+
+          <div class="post-content" itemprop="articleBody">
+            {{ .Content }}
+          </div>
+
+        </article>
+
+      </div>
+    </div>
+
+    <!-- {{ partial "sidebar.html" . }} -->
+
+  </div>
+</div>
+
+{{ partial "fb-script.html" . }}
+{{ end }}

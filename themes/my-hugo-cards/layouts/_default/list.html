@@ -1,0 +1,101 @@
+{{ define "main" }}
+<div class="wrapper">
+
+  <div class="container pt-5">
+    <h1>Tech U Cohort 5: IAD</h1>
+    <hr />
+    <div class="home">
+      <div class="row mb-3">
+        <p class="text-uppercase ml-3">filter by</p>
+
+        <div class="dropdown ml-3" id="location-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Location
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">New York</a>
+            <a class="dropdown-item" href="#">Austin</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+        <div class="dropdown ml-3" id="role-dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Role
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Solutions Architect</a>
+            <a class="dropdown-item" href="#">Professional Services Consultant</a>
+            <a class="dropdown-item" href="#">Technical Trainer</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row" id="profiles">
+
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+        {{ range $paginator.Pages }}
+        <div class="col-md-4 ">
+          <a href="{{ .Permalink }}" class="index-anchor">
+            <div class="panel panel-default p-4">
+              <div class="circular-portrait mb-3">
+                {{ if .Params.img }}
+                <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Params.img_thumbnail }}" alt="{{ .Title }}">
+                {{ else }}
+                <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}"
+                  alt="{{ .Site.Title }}">
+                {{ end }}
+              </div>
+              <div class="panel-body">
+                <h3 class="panel-title">{{ .Title | truncate 25 }}</h3> </br>
+                <b>{{.Params.role}}, {{.Params.location}}</b>
+              </div>
+              <div class="divider"></div>
+              <div class="panel-body"><small>
+                  {{ .Summary | plainify | truncate 180 }}</small>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        {{ end }}
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          {{ if gt .Paginator.TotalPages 1 }}
+          <ul class="pagination">
+            {{ if .Paginator.HasPrev }}
+            <li><a href="{{ .Paginator.Prev.URL }}">&laquo; Prev</a></li>
+            {{ else }}
+            <li><span>&laquo; Prev</span></li>
+            {{ end }}
+
+            {{ $scratch := newScratch }}
+            {{ $scratch.Set "current" .Paginator.PageNumber }}
+
+            {{ range .Paginator.Pagers }}
+            {{ if eq .PageNumber ($scratch.Get "current") }}
+            <li class="active"><span><em>{{ .PageNumber }}</em></span></li>
+            {{ else }}
+            <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
+            {{ end }}
+            {{ end }}
+
+            {{ if .Paginator.HasNext }}
+            <li><a href="{{ .Paginator.Next.URL }}">Next &raquo;</a></li>
+            {{ else }}
+            <li><span>Next &raquo;</span></li>
+            {{ end }}
+          </ul>
+          {{ end }}
+
+        </div>
+        <div class="col-md-4"> </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
