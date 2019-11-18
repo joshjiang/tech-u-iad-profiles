@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simon Woldenmicheal
+title: Simon Woldemicheal
 alias: woldsimo
 location: Austin, TX
 role: Solutions Architect
