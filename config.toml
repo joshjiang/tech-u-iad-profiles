@@ -6,7 +6,6 @@ theme = "my-hugo-cards"
 paginate = 6
 
 [params]
-  builtBy = "bool"
   defaultImage = "gopher.jpg"
 
   facebook = ""
@@ -22,8 +21,3 @@ paginate = 6
 
   analytics = ""
   disqus = ""
-
-  [params.copyright]
-     name = "bool"
-     link = "https://bool.netlify.com"
-

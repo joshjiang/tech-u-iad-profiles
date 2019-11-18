@@ -14,9 +14,25 @@
             Location
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">New York</a>
-            <a class="dropdown-item" href="#">Austin</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            {{$people := where site.Pages "Section" "people"}}
+            {{range $people.GroupByParam "location"}}
+            <a class="dropdown-item" href="#">Location: {{.Key}}</a>
+            {{$keywords := slice}}
+            {{range .Pages}}
+            {{range .Keywords}}
+            {{$keywords = $keywords | append .}}
+            {{end}}
+            {{end}}
+            {{$keywords = uniq $keywords}}
+            <p>Keywords: {{delimit $keywords ", "}}</p>
+            {{end}}
+            <a class="dropdown-item" href="#">Chicago, IL</a>
+            <a class="dropdown-item" href="#">New York, NY</a>
+            <a class="dropdown-item" href="#">Austin, TX</a>
+            <a class="dropdown-item" href="#">Dallas, TX</a>
+            <a class="dropdown-item" href="#">Herndon, VA</a>
+            <a class="dropdown-item" href="#">Arlington, VA</a>
+            <a class="dropdown-item" href="#">Seattle, WA</a>
           </div>
         </div>
         <div class="dropdown ml-3" id="role-dropdown">
@@ -37,7 +53,7 @@
 
         {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
         {{ range $paginator.Pages }}
-        <div class="col-md-4 ">
+        <div class="col-md-4 p-2 text-center">
           <a href="{{ .Permalink }}" class="index-anchor">
             <div class="panel panel-default p-4">
               <div class="circular-portrait mb-3">
@@ -48,12 +64,12 @@
                   alt="{{ .Site.Title }}">
                 {{ end }}
               </div>
-              <div class="panel-body">
+              <div class="panel-body text-center">
                 <h3 class="panel-title">{{ .Title | truncate 25 }}</h3> </br>
                 <b>{{.Params.role}}, {{.Params.location}}</b>
               </div>
               <div class="divider"></div>
-              <div class="panel-body"><small>
+              <div class="panel-body "><small>
                   {{ .Summary | plainify | truncate 180 }}</small>
               </div>
             </div>

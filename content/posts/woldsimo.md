@@ -1,26 +1,28 @@
 ---
 layout: post
-title: Joshua Jiang
-alias: joshujia
-location: New York
-role: Professional Services Consultant
-github: https://github.com/joshjiang
-linkedin: https://www.linkedin.com/in/josh-jiang-02722776/
-img: 1920x475.png
-img_thumbnail: thumb.png
+title: Simon Woldenmicheal
+alias: woldsimo
+location: Austin, TX
+role: Solutions Architect
+github: https://github.com/swoldemi
+linkedin: https://www.linkedin.com/in/simon-woldemichael/
+img: rectangle/IMG_8632.jpg
+img_thumbnail: thumbnail/IMG_8632.jpg
 ---
-### About Joshua
+### About Simon
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque orci in interdum ultrices. Nam pulvinar varius nisi, vehicula mattis eros. Donec elit eros, interdum et dui eget, euismod fringilla elit. Suspendisse vitae convallis erat, a suscipit velit. Proin bibendum tempus pretium. Aliquam lectus tortor, vehicula sed rhoncus eu, placerat nec purus. Morbi venenatis nibh luctus turpis gravida, eget laoreet ex feugiat. Morbi a nisi eu nibh euismod sollicitudin.
-
 
 ### Projects
 **Lorem ipsum**
+
  dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque orci in interdum ultrices. Nam pulvinar varius nisi, vehicula mattis eros. 
  
 **Donec elit eros** 
+
 interdum et dui eget, euismod fringilla elit. Suspendisse vitae convallis erat, a suscipit velit. Proin bibendum tempus pretium. Aliquam lectus tortor, vehicula sed rhoncus eu, placerat nec purus. 
 
 **Morbi venenatis** 
+
 nibh luctus turpis gravida, eget laoreet ex feugiat. Morbi a nisi eu nibh euismod sollicitudin.
 
 
