@@ -9,6 +9,7 @@ Current site URL: https://master.dnfrtzpe47ih5.amplifyapp.com/
 
 0. Fork this repo and add your own branch (https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
 1. If I didn't take your photo, upload your headshot and thumbnail image to their respective subfolders in ```static/images```
+    - The crop ratio of the large photos is 59x19 and the thumbnails are 1x1
 2. Make a profile with your portfolio information by copying your own version of the sample template: ```content/posts/sample_porfolio.md```.
     - Leave github or linkedin fields blank if you don't have those accounts 
     - Make sure the file name of your photos match the file name in the ```img``` and  ```img_thumbnail``` fields
