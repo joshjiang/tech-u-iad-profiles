@@ -39,7 +39,7 @@
 
       <div class="row" id="profiles">
 
-        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") 100}}
         {{ range $paginator.Pages }}
         <div class="col-md-4 p-2 text-center">
           <a href="{{ .Permalink }}" class="index-anchor">
