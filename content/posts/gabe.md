@@ -10,12 +10,7 @@ img: rectangle/IMG_8746.jpg
 img_thumbnail: thumbnail/IMG_8746.jpg
 ---
 ### About Gabe
-Gabe 
-
-### Projects
-**Lorem ipsum**
-
- dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque orci in interdum ultrices. Nam pulvinar varius nisi, vehicula mattis eros. 
+Gabe received a B.S. in Computer Science at California State University, Long Beach. He has professional experience in web development, marketing, technical support, and industrial automation. 
 
 
 ### Certifications
