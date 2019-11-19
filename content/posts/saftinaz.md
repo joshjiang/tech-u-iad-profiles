@@ -2,7 +2,7 @@
 layout: post
 title: Safa Tinaztepe
 alias: saftinaz
-location: Austin, TX
+location: New York, NY
 role: Professional Services Consultant
 github: https://github.com/SafaTinaztepe
 linkedin: https://www.linkedin.com/in/safatinaztepe/
