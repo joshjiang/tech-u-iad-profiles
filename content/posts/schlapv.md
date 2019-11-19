@@ -15,7 +15,7 @@ Vincent has a Masters degree Computer Science from Seattle University and Bachel
 ### Projects
 
 ### Certifications
-https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Cloud-Practitioner_512x512.bc006f14f986fa4f3ca238b0b62be458ce1fb5ce.png
-https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Solutions-Architect_Associate_512x512.d82aee07920970350c427c8d0542bc239180a486.png
-https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Sysops-Administrator_Associate_512x512.7ee4f9e7f4046349a3bfe27dcb1a54a340e04623.png
-https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Developer_Associate_512x512.6d5f0ad35de66966c96f8e408e4fd919c1a2d753.png
+![alt text](https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Cloud-Practitioner_512x512.bc006f14f986fa4f3ca238b0b62be458ce1fb5ce.png "Logo Title Text 1")
+![alt text](https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Solutions-Architect_Associate_512x512.d82aee07920970350c427c8d0542bc239180a486.png "Logo Title Text 1")
+![alt text](https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Sysops-Administrator_Associate_512x512.7ee4f9e7f4046349a3bfe27dcb1a54a340e04623.png "Logo Title Text 1")
+
