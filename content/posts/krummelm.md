@@ -6,7 +6,7 @@ location: Austin, TX
 role: Solutions Architect
 github: https://github.com/Mkrummz
 linkedin: https://www.linkedin.com/in/maggie-krummel-973a38126/
-img: rectangle/IMG_8632.jpg
+img: rectangle/IMG_8647.jpg
 img_thumbnail: thumbnail/IMG_8647.jpg
 ---
 ### About Maggie
