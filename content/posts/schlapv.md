@@ -4,7 +4,7 @@ title: Vincent Schlappi
 alias: schlapv
 location: Seattle, WA
 role: Solutions Architect
-github: 
+github: github.com/VastlyBlank
 linkedin: https://www.linkedin.com/in/vincent-schlappi-08743819
 img: rectangle/IMG_8580.jpg
 img_thumbnail: thumbnail/IMG_8580.jpg
