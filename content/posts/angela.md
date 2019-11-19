@@ -9,8 +9,8 @@ linkedin: https://www.linkedin.com/in/angela-wieber-5b58b1168/
 img: rectangle/IMG_8621.jpg
 img_thumbnail: thumbnail/IMG_8621.jpg
 ---
-### About Simon
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque orci in interdum ultrices. Nam pulvinar varius nisi, vehicula mattis eros. Donec elit eros, interdum et dui eget, euismod fringilla elit. Suspendisse vitae convallis erat, a suscipit velit. Proin bibendum tempus pretium. Aliquam lectus tortor, vehicula sed rhoncus eu, placerat nec purus. Morbi venenatis nibh luctus turpis gravida, eget laoreet ex feugiat. Morbi a nisi eu nibh euismod sollicitudin.
+### About Angela
+Angela Wieber is an AWS Solutions Architect with the Austin Horizon Team.
 
 ### Projects
 **Lorem ipsum**
