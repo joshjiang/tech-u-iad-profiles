@@ -39,7 +39,8 @@
 
       <div class="row" id="profiles">
 
-        {{ range where .Pages.ByDate "Section" "posts" }}
+        {{ $paginator := .Paginate (where .Site.RegularPages "Section" "posts") }}
+        {{ range $paginator.Pages }}
         <div class="col-md-4 p-2 text-center">
           <a href="{{ .Permalink }}" class="index-anchor">
             <div class="panel panel-default p-4">
@@ -62,13 +63,43 @@
             </div>
           </a>
         </div>
+
         {{ end }}
 
       </div>
 
+      <div class="row">
+        <div class="col-md-4">
+          {{ if gt .Paginator.TotalPages 1 }}
+          <ul class="pagination">
+            {{ if .Paginator.HasPrev }}
+            <li><a href="{{ .Paginator.Prev.URL }}">&laquo; Prev</a></li>
+            {{ else }}
+            <li><span>&laquo; Prev</span></li>
+            {{ end }}
 
-      <div class="col-md-4"> </div>
+            {{ $scratch := newScratch }}
+            {{ $scratch.Set "current" .Paginator.PageNumber }}
+
+            {{ range .Paginator.Pagers }}
+            {{ if eq .PageNumber ($scratch.Get "current") }}
+            <li class="active"><span><em>{{ .PageNumber }}</em></span></li>
+            {{ else }}
+            <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
+            {{ end }}
+            {{ end }}
+
+            {{ if .Paginator.HasNext }}
+            <li><a href="{{ .Paginator.Next.URL }}">Next &raquo;</a></li>
+            {{ else }}
+            <li><span>Next &raquo;</span></li>
+            {{ end }}
+          </ul>
+          {{ end }}
+
+        </div>
+        <div class="col-md-4"> </div>
+      </div>
     </div>
   </div>
-</div>
-{{ end }}
+  {{ end }}
