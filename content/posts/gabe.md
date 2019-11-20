@@ -32,6 +32,9 @@ Owned and managed an educational social media account ([@learn.py](https://insta
 ** Bluetooth Analog Reader **
 Developed an Android mobile application (Java, XML) that connects to an Arduino sensor setup via Bluetooth LE. The Arduino sensor setup measured renewable energy sources (wind, wave, solar).
 
+** Home Automation Controller **
+Configured a web server on a RaspberryPi that provides a web interface and API accessible via a local network. It can be placed in a home and can be connected to devices to automate appliances.
+
 ### Certifications
 ![alt text](https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Cloud-Practitioner_512x512.bc006f14f986fa4f3ca238b0b62be458ce1fb5ce.png "AWS Cloud Practictioner")
 ![alt text](https://d1.awsstatic.com/training-and-certification/Certification%20Badges/AWS-Certified_Solutions-Architect_Associate_512x512.d82aee07920970350c427c8d0542bc239180a486.png "AWS Solutions Architect Associate")
