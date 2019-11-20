@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Arnold Epanda
 alias: aepanda
@@ -9,8 +9,10 @@ linkedin: https://www.linkedin.com/in/arnold-epanda/
 img: rectangle/arnold.jpg
 img_thumbnail: thumbnail/arnold.jpg
 ---
+
 ### About Arnold
 Arnold is an incoming Solutions Architect with Amazon Web Services.  He is too curious to try out new things and never stop learning. He likes to shuffle his mind around thinking about new ideas and ways to code if off. He is really good at soccer and likes jogging at times. His areas of interest include Big Data, backend development, data science, machine learning, and networking.
+
 
 ### Projects
 **Smart Wallet**

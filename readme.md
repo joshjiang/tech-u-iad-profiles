@@ -1,7 +1,7 @@
 # Tech U Cohort 5 IAD Profile Site
 This is a collection of portfolios for members of the Tech U IAD Cohort 5 at Amazon Web Services.
 
-Current site URL: https://master.dnfrtzpe47ih5.amplifyapp.com/
+Current site URL: https://www.techu5iad.best/
 
 ## Instructions
 

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Simon Woldemicheal
-alias: woldsimo
-location: Austin, TX
+title: Akash Gheewala
+alias: gheakash
+location: New York, NY
 role: Solutions Architect
-github: https://github.com/swoldemi
-linkedin: https://www.linkedin.com/in/simon-woldemichael/
-img: rectangle/IMG_8632.jpg
-img_thumbnail: thumbnail/IMG_8632.jpg
+github: https://github.com/akashxg
+linkedin: https://www.linkedin.com/in/akashxg/
+img: rectangle/IMG_8635.jpg
+img_thumbnail: thumbnail/IMG_8635.jpg
 ---
-### About Simon
+### About Akash
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque orci in interdum ultrices. Nam pulvinar varius nisi, vehicula mattis eros. Donec elit eros, interdum et dui eget, euismod fringilla elit. Suspendisse vitae convallis erat, a suscipit velit. Proin bibendum tempus pretium. Aliquam lectus tortor, vehicula sed rhoncus eu, placerat nec purus. Morbi venenatis nibh luctus turpis gravida, eget laoreet ex feugiat. Morbi a nisi eu nibh euismod sollicitudin.
 
 ### Projects
